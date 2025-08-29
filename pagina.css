@@ -1,0 +1,121 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(233, 233, 233);
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+}
+
+
+p {
+text-align: left;
+font-size: 19px;
+color: white;
+}
+
+h2 {
+color: white;
+}
+
+.caixa-conteudo {
+    display: flex;
+    align-items: center; /* alinha no meio verticalmente */
+    gap: 30px;           /* espaço entre os dois */
+    margin: 40px;
+    flex-wrap: wrap;     /* permite quebrar linha em telas pequenas */
+}
+
+.caixa-texto {
+    width: 800px;
+    height: 300px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 40px;
+    margin: 40px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.caixa-texto2 {
+    width: 800px;
+    height: 300px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 40px;
+    margin: 40px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.imagem-gato {
+    border: 5px solid rebeccapurple;
+    width: 300px;
+    height: 300px;
+    padding: 0x;
+    margin: 40px;
+    border-radius: 50%;
+     overflow: hidden;
+}
+
+.gatinho {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
+
+  .corpo {
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: flex-start;
+  }
+
+.redes-sociais {
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.linkedin {
+    height: 100%;
+    width: 100%;
+}
+
+.instagram {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Estilo geral do header */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+    position: sticky;
+    margin-top: 0;
+}
+
+/* Links do header */
+.header a {
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* Efeito hover */
+.header a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1); 
+}
